@@ -129,7 +129,7 @@ $(function () {
         if (images.length > 0) {
             sliderContent = '';
             for (var i = 0; i < images.length; ++i) {
-                sliderContent = sliderContent + '<div class="item"><img src=' + images[i] + ' alt="" class="img-fluid"></div>';
+                sliderContent = sliderContent + '<div class="item"><img src=' + images[i] + ' alt="" class="img-fluid center"></div>';
             }
         } else {
             sliderContent = '';
@@ -196,7 +196,7 @@ $(function () {
     }, {
         offset: '90%'
     });
-    
+
     $('[data-animate-hover]').hover(function () {
         $(this).css({
             opacity: 1

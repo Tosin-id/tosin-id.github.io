@@ -60,6 +60,21 @@ section {
   font-weight: 500 !important;
 }
 
+.subtitle{
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 100;
+  padding: 10px 0;
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  line-height: 1;
+  color: #555;
+  margin-top: 20px;
+  letter-spacing: 0;
+}
+
 .title {
   display: inline-block;
   font-size: 2.9rem;
@@ -185,7 +200,7 @@ nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
 }
 
 .intro-section .logo, .intro-section p {
-  margin-bottom: 120px;
+  margin-bottom: 50px;
 }
 
 @media (min-width: 992px) {
@@ -548,18 +563,68 @@ nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
 
 #detail-slider {
   margin-top: 50px;
+  
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: center;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+    text-align: center;
+}
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+table.center_ {
+  margin-left:auto; 
+  margin-right:auto;
+}
+
 
 /*
 *
 * =====================
-* CUSTOEMRS
+* CUSTOMERS
 * =====================
 *
 */
 .customers-section img {
   padding: 10px;
   max-width: 80px;
+}
+
+.competition-section img {
+  height: 200px;
 }
 
 /*
